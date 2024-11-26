@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios de Doces</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #16a085;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #34495e;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p, ul {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #7f8c8d;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #16a085;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .price {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .result {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .result span {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        td {
+            border-bottom: 1px solid #ddd;
+        }
+        th, td {
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Relatórios de Doces</h1>
+
+    <!-- Relatório Beijinho -->
+    <div class="section" id="relatorio-beijinho">
+        <h2>Relatório Beijinho</h2>
+
+        <h3>Cálculo dos Custos:</h3>
+        <ul>
+            <li><span class="highlight">Coco (50g):</span> R$ 4,00</li>
+            <li><span class="highlight">Leite Condensado (395g):</span> R$ 7,00</li>
+            <li><span class="highlight">Margarina (1 colher):</span> R$ 0,80</li>
+        </ul>
+
+        <p><span class="highlight">Custo Total dos Ingredientes:</span> R$ 11,80</p>
+
+        <h3>Custo Adicional:</h3>
+        <ul>
+            <li><span class="highlight">Gás:</span> R$ 2,00</li>
+            <li><span class="highlight">Mão de Obra:</span> R$ 20,00</li>
+        </ul>
+        <p><span class="highlight">Custo Total da Receita:</span> R$ 33,80</p>
+
+        <h3>Rendimento:</h3>
+        <p>Rende 25 bolinhas de beijinho.</p>
+
+        <h3>Custo por Unidade:</h3>
+        <p>R$ <span class="highlight">1,35</span> por bolinha.</p>
+
+        <h3>Preço de Venda:</h3>
+        <p>R$ <span class="price">4,00</span> por bolinha.</p>
+
+        <h3>Lucro/Perda:</h3>
+        <p class="result">Lucro: R$ <span class="highlight">2,65</span> por bolinha.</p>
+
+        <h3>Porcentagem de Lucro:</h3>
+        <p><span class="highlight">196,3%</span></p>
+    </div>
+
+    <!-- Relatório Brigadeiro -->
+    <div class="section" id="relatorio-brigadeiro">
+        <h2>Relatório Brigadeiro</h2>
+
+        <h3>Cálculo dos Custos:</h3>
+        <ul>
+            <li><span class="highlight">Cacau em Pó (3 colheres):</span> R$ 1,80</li>
+            <li><span class="highlight">Manteiga (1 colher):</span> R$ 0,60</li>
+            <li><span class="highlight">Leite Condensado (1 lata):</span> R$ 7,00</li>
+        </ul>
+
+        <p><span class="highlight">Custo Total dos Ingredientes:</span> R$ 9,40</p>
+
+        <h3>Custo Adicional:</h3>
+        <ul>
+            <li><span class="highlight">Gás:</span> R$ 2,00</li>
+            <li><span class="highlight">Mão de Obra:</span> R$ 20,00</li>
+        </ul>
+        <p><span class="highlight">Custo Total da Receita:</span> R$ 31,40</p>
+
+        <h3>Rendimento:</h3>
+        <p>Rende 25 bolinhas de brigadeiro.</p>
+
+        <h3>Custo por Unidade:</h3>
+        <p>R$ <span class="highlight">1,26</span> por bolinha.</p>
+
+        <h3>Preço de Venda:</h3>
+        <p>R$ <span class="price">5,00</span> por bolinha.</p>
+
+        <h3>Lucro/Perda:</h3>
+        <p class="result">Lucro: R$ <span class="highlight">3,74</span> por bolinha.</p>
+
+        <h3>Porcentagem de Lucro:</h3>
+        <p><span class="highlight">297,6%</span></p>
+    </div>
+
+    <!-- Relatório Brownie -->
+    <div class="section" id="relatorio-brownie">
+        <h2>Relatório Brownie</h2>
+
+        <h3>Cálculo dos Custos:</h3>
+        <ul>
+            <li><span class="highlight">Chocolate ao Leite (200g):</span> R$ 24,00</li>
+            <li><span class="highlight">Cacau em Pó (25g):</span> R$ 2,37</li>
+            <li><span class="highlight">Margarina (100g):</span> R$ 0,80</li>
+            <li><span class="highlight">Farinha de Trigo (60g):</span> R$ 0,24</li>
+            <li><span class="highlight">Essência de Rum (5ml):</span> R$ 1,50</li>
+            <li><span class="highlight">Ovos (3 unidades):</span> R$ 2,25</li>
+        </ul>
+
+        <p><span class="highlight">Custo Total dos Ingredientes:</span> R$ 31,16</p>
+
+        <h3>Custo Adicional:</h3>
+        <ul>
+            <li><span class="highlight">Gás:</span> R$ 2,00</li>
+            <li><span class="highlight">Mão de Obra:</span> R$ 20,00</li>
+        </ul>
+        <p><span class="highlight">Custo Total da Receita:</span> R$ 53,16</p>
+
+        <h3>Rendimento:</h3>
+        <p>Rende 10 fatias de brownie.</p>
+
+        <h3>Custo por Fatia:</h3>
+        <p>R$ <span class="highlight">5,32</span> por fatia.</p>
+
+        <h3>Preço de Venda:</h3>
+        <p>R$ <span class="price">15,00</span> por fatia.</p>
+
+        <h3>Lucro/Perda:</h3>
+        <p class="result">Lucro: R$ <span class

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Concluída - Le Sucré VIP</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff6f6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Mensagem de Agradecimento */
+        .thank-you-message {
+            background-color: #add8e6;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .thank-you-message h2 {
+            font-size: 2em;
+            color: #696969;
+        }
+
+        .thank-you-message p {
+            font-size: 1.2em;
+            color: #8a8a8a;
+        }
+
+        .thank-you-message ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .thank-you-message ul li {
+            font-size: 1.1em;
+            color: #535353;
+            margin: 5px 0;
+        }
+
+        /* Botão para Voltar */
+        .back-to-home {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        button {
+            background-color: #add8e6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ffaacc;
+        }
+
+        /* Contato */
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Obrigado pela sua compra!</h1>
+        <p>Seu pedido está sendo preparado com muito carinho e em breve estará a caminho!</p>
+    </header>
+
+    <!-- Mensagem de Agradecimento -->
+    <section class="thank-you-message">
+        <h2>Pedido Confirmado</h2>
+        <p>Ficamos muito felizes por você ter escolhido o Le Sucré VIP! Seu pedido foi recebido com sucesso e logo estará na sua porta.</p>
+        <p><strong>Detalhes do pedido:</strong></p>
+        <ul>
+            <li>Produto: <span id="produto">Brigadeiro</span></li>
+            <li>Quantidade: <span id="quantidade">10 unidades</span></li>
+            <li>Total: <span id="total">R$ 25,00</span></li>
+        </ul>
+
+        <p>Você pode acompanhar o status da entrega no seu email ou entrar em contato conosco se precisar de mais informações.</p>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact">
+        <h2>Fale Conosco</h2>
+        <p>Se precisar de ajuda, entre em contato com a nossa equipe:</p>
+        <p>Email: contato@lesucrevip.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
+
+    <!-- Botão para Voltar -->
+    <section class="back-to-home">
+        <button onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
+    </section>
+
+</body>
+</html>

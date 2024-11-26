@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Sucré VIP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bem-vindo à Le Sucré VIP </main>!</h1>
+        <p>Descubra nossos doces irresistíveis, feitos com amor e carinho!</p>
+        <button onclick="window.location.href='#menu'">Veja o Cardápio</button>
+    </header>
+
+    <!-- Cardápio -->
+    <section class="menu" id="menu">
+        <h2>Nosso Cardápio</h2>
+        
+        <!-- Brigadeiro -->
+        <div class="item">
+            <img src="brigadeiro.jpg" alt="Brigadeiro">
+            <h3>Brigadeiro</h3>
+            <p>O clássico brigadeiro de chocolate.</p>
+            <a href="#brigadeiro-receita">
+                <button>Ver Receita</button>
+            </a>
+            <a href="pagamento.html">
+                <button>Peça Agora</button>
+            </a>
+        </div>
+
+        <!-- Beijinho -->
+        <div class="item">
+            <img src="beijinho.jpg" alt="Beijinho">
+            <h3>Beijinho</h3>
+            <p>Delicioso e tradicional doce de coco.</p>
+            <a href="#beijinho-receita">
+                <button>Ver Receita</button>
+            </a>
+            <a href="pagamento.html">
+                <button>Peça Agora</button>
+            </a>
+        </div>
+
+        <!-- Brownie -->
+        <div class="item">
+            <img src="brownie.jpg" alt="Brownie">
+            <h3>Brownie</h3>
+            <p>Brownie de chocolate crocante por fora e macio por dentro.</p>
+            <a href="#brownie-receita">
+                <button>Ver Receita</button>
+            </a>
+            <a href="pagamento.html">
+                <button>Peça Agora</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seções de Receita -->
+    <section class="recipe-section" id="brigadeiro-receita">
+        <h2>Receita do Brigadeiro</h2>
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>1 lata de leite condensado</li>
+            <li>100g de cacau em pó</li>
+            <li>1 colher de sopa de manteiga</li>
+            <li>Chocolate granulado para decorar</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong> Derreta o chocolate com a manteiga e misture ao leite condensado, mexendo até que desgrude da panela. Modele os brigadeiros e passe no granulado.</p>
+    </section>
+
+    <section class="recipe-section" id="beijinho-receita">
+        <h2>Receita do Beijinho</h2>
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>395g de leite condensado</li>
+            <li>50g de coco ralado</li>
+            <li>1 colher de sopa de manteiga</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong> Cozinhe o leite condensado com a manteiga até soltar do fundo da panela, depois misture o coco ralado. Modele e passe no açúcar cristal.</p>
+    </section>
+
+    <section class="recipe-section" id="brownie-receita">
+        <h2>Receita do Brownie</h2>
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>200g de chocolate ao leite</li>
+            <li>100g de manteiga</li>
+            <li>3 ovos</li>
+            <li>1 xícara de açúcar</li>
+            <li>1/4 de xícara de cacau em pó</li>
+            <li>1/2 xícara de farinha de trigo</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong> Derreta o chocolate com a manteiga, bata com os ovos e o açúcar, e misture a farinha. Leve ao forno por 30 minutos.</p>
+    </section>
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .main-content {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .option-buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #add8e6;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #add8e6;
+        }
+
+        footer {
+            background-color: #add8e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <h2>Escolha o relatório de gastos e lucros que deseja acessar:</h2>
+
+        <div class="option-buttons">
+            <a href="relatorio_beijinho.html" class="button">Relatório Beijinho</a>
+            <a href="relatorio_brownie.html" class="button">Relatório Brownie</a>
+            <a href="relatorio_brigadeiro.html" class="button">Relatório Brigadeiro</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sua Loja de Doces</p>
+    </footer>
+
+</body>
+</html>
+    <!-- Sobre Nós -->
+    <section class="about" id="about">
+        <h2>Sobre Nós</h2>
+        <p>Na Le Sucré VIP, acreditamos que cada doce é uma experiência especial, feita com ingredientes selecionados de primeira qualidade e muito amor.</p>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact" id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato para pedidos ou dúvidas:</p>
+        <p>Email: contato@lesucrevip.com</p>
+    </section>
+
+</body>
+</html>
